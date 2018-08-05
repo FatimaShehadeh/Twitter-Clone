@@ -1,0 +1,288 @@
+body{
+	font-family: "Segoe UI",Arial,sans-serif;
+	background: #e6ecf0;
+	font-size: 14px;
+}
+
+/* Navbar */
+.navcss{
+	height: 45px;
+	background-color: #fff;
+	border-bottom: 1px solid #66757f;
+	font-weight: bold;
+}
+ul.nav a{
+	color: #66757f !important;
+}
+ul.nav a:hover {
+	border-bottom: 2px solid #1c94e0;
+}
+
+ul.nav a:focus {
+	color: #1c94e0 !important;
+}
+
+.searchtwitter{
+	width: 220px;
+	height: 32px;
+	color: #000;
+	border: 1px solid #e6ecf0;
+	border-radius: 21px;
+	background-color: #f5f8fa;
+	font-size: 12px;
+	padding: 8px 32px 8px 12px;
+}
+
+.avatar{
+	border-radius: 50%;
+}
+
+.twbutton{
+	width: 73px;
+	height: 34px;
+	margin-left: 10px;
+	background-color: #1da1f2;
+	color: #fff;
+	border: 1px solid #1da1f2;
+	border-radius: 100px;
+	padding: 6px 16px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color:#1c94e0;
+    border-color: #1da1f2;
+}
+
+/* profile head */
+.profilehead{
+	height: 410px;
+	background-color: #fff;
+}
+
+.profilehead-cover{
+	height: 350px;
+}
+
+.profile-avatar{
+	width: 200px;
+	height: 200px;
+	margin-top: -115px;
+	border:5px solid #fff;
+}
+.head-list {
+	padding-left: 0;
+	margin-left: 15px;
+}
+.head-list .head-item{
+	float: left;
+	list-style: none;
+	margin-right: 30px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.head-list a{
+	color: #66757f;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.head-list .item-info{
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.head-list .item-num{
+	font-size: 18px;
+    font-weight: bold;
+}
+
+.head-list a .item-num:hover{
+	color: #1da1f2;
+}
+
+.head-list a:focus{
+	color: #1da1f2;
+}
+
+.edit-b{
+	float: right;
+	color: #66757f;
+	border:1px solid #66757f;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 20px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-top: 12px;
+}
+
+.edit-b:hover{
+	background-color: #f5f8fa;
+	color: #66757f;
+}
+/* content */
+
+/* left col */
+.col-3{
+	padding: 0;
+}
+.left-col{
+	height: 450px;
+	margin-top: 35px;
+	margin-right: 10px;
+}
+
+.left-content{
+	width: 260px;
+	height: 188px;
+	padding-left: 5px;
+}
+.p-name a,h1{
+	font-size: 21px;
+	font-weight: bold;
+	color: #000;
+}
+
+.p-user h2{
+	font-size: 14px;
+	color: #657786;
+}
+
+.p-status p{
+	font-size: 14px;
+	color: #000;
+	margin-bottom: 12px;
+}
+
+.p-link, .p-join, .p-bir{margin-bottom: 8px; color: #657786;}
+
+.left-col .left-photos{margin-left: 5px !important; margin-top: 20px;}
+
+.photo-item{border-radius: 5px; width: 83px; height: 83px;}
+
+.left-photos .row {margin: 10px 0;}
+
+.left-photos .col-4{padding: 0;}
+
+/* mid col */
+.col-6{
+	padding: 0;
+}
+
+.mid-col{
+	background-color: #fff;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.mid-col .mid-info{
+	height: 45px;
+	border-bottom: 1px solid #e6ecf0;
+}
+.mid-list{
+	padding-left: 0;
+	margin-left: 15px;
+	padding-top: 10px;
+}
+.mid-list .mid-item{
+	float: left;
+	list-style: none;
+	color: #1da1f2;
+	font-size: 18px;
+	font-weight: bold;
+	margin-right: 30px;
+}
+
+.mid-list a:focus{
+	color: #000;
+}
+
+.tweet{
+	background-color: #fff;
+	margin-top:1px;
+	margin-bottom: 1px;
+	border-bottom: 1px solid #e6ecf0;
+}
+
+.twhead{
+	margin-left: 10px;
+}
+
+.twhead .avatar{
+	margin-top: 10px;
+	margin-right: 5px;
+}
+
+.twhead .user-n{
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.twhead a{
+    color: #657786;
+    font-size: 14px;
+}
+
+.content {
+   margin-left: 40px;
+   padding-bottom: 30px;
+}
+
+.content p{
+	margin-top: -20px;
+	padding-left: 25px;
+}
+
+.content img{
+   margin-left: 23px;
+   margin-top: -10px;
+   border-radius: 5px;
+}
+
+
+/*right col */
+.right-col{
+	height: 450px;
+	background-color: #fff;
+	padding-top: 15px;
+	margin-top: 10px;
+}
+
+.right-col  h3{
+	font-size: 18px;
+	font-weight: bold;
+	display: inline;
+	margin-left: 15px;
+}
+
+.trend a {
+	font-size: 12px;
+	color: #1da1f2;
+}
+
+.right-col .trendslist ul{
+	padding-left: 15px;
+	padding-top: 5px;
+}
+
+.right-col .trendslist ul li{
+	list-style: none;
+	text-align: inherit;
+}
+
+.hash{
+	font-size: 14px;
+	font-weight:bold;
+	color: #1da1f2;
+}
+
+.num{
+	font-size: 12px;
+	color: #657786;
+	padding-bottom: 5px;
+}
+
